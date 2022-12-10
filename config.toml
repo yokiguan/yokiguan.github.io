@@ -1,0 +1,38 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Yoki Guan’s Digital Garden'
+theme = 'PaperMod'
+
+params:
+    homeInfoParams:
+        Title: Hello World 👋
+        Content: This is a sample hugo template
+
+    socialIcons: # optional
+        - name: "github"
+          url: "https://github.com/yokiguan"
+        - name: "twitter"
+          url: "https://twitter.com/ShuchangGuan"
+    ShowReadingTime: true
+    author: "Yoki Guan"
+    contact: "scguan.yoki@gmail.com"
+    mobileMenu: true
+
+menu:
+    main:
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 20
+        - identifier: archive
+          name: Archive
+          url: /archives/
+          weight: 20
